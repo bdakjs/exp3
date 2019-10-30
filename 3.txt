@@ -1,0 +1,3 @@
+bin/flume-ng agent -c ~/flume/ -f ~/flume/net.conf --name NetcatAgent -Dflume.root.logger=INFO,console
+
+telnet locatelnet localhost 56565
